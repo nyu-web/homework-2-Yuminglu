@@ -1,0 +1,69 @@
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #1a393b;
+    font-size: 55px;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.img {
+    border-radius：40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background-image: url("banner.jpg");
+}
+
+.container > div {
+    padding: 50px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.p {
+    font-family:'Coming Soon', cursive;
+    margin: 50px;
+    font-size: 20px;
+    text-decoration: overline;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #1a393b;
+}
+
+.c {
+    font-family:'Coming Soon', cursive;
+    margin: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    padding:5px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+    padding: 30px;
+    margin-top: 90px;
+    font-family:'Coming Soon', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url("end.jpg");
+}
+
+.circle-icon {
+    font-size: 30px;
+    color: #bed4e2;
+    background-color: #fdffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 30px;
+}
