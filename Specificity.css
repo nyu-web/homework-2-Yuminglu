@@ -1,0 +1,25 @@
+/* 0,0,0,1 */
+p {
+  color: pink;
+}
+
+/* 0,1,1,1 */
+p #content.second {
+  color: purple;
+}
+
+/* 0,1,0,0 */
+p #content {
+  color: black;
+}
+
+/* 0,2,1,0 */
+.header #nav #list{
+  color: blue;
+}
+
+/* 0,0,1,0 */
+.definition {
+  color: green;
+}
+
