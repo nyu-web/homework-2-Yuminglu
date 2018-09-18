@@ -1,1 +1,29 @@
 
+<!doctype html>
+<html lang='en-US'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="specificity.css" />
+</head>
+<body>
+  <!-- 0,0,0,1 -->
+  <p style="color:pink"></p> 
+  <!-- 0,1,1,1 -->
+  <p id="second" class="third">0,1,1,1</p>
+  <p id="second">0,1,0,0</p>
+  <div id="someId">
+    <p id="second" class="third">0,2,1,0</p>
+  </div>
+  <p class="third">0,0,1,0</p>
+  <p>0,0,0,1</p>
+
+  0,1,1,1
+0,1,0,0
+0,2,1,0
+0,0,1,0
+0,0,0,1
+
+</body>
+</html>
